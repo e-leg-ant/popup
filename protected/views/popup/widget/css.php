@@ -21,6 +21,20 @@
         box-shadow: 0px 0px 10px #000;
     }
 
+    .wrap-popup-<?= $model->getKey(); ?> .popup-header {
+        border-bottom: 1px solid #ffffff;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 24px;
+        text-transform: uppercase;
+        padding: 10px 10px;
+    }
+
     .wrap-popup-<?= $model->getKey(); ?> .popup-content {
         display: flex;
         justify-content: center;

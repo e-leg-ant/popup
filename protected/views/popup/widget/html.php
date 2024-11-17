@@ -2,6 +2,10 @@
 
     <div class="popup-body">
 
+        <div class="popup-header">
+            <?= $model->name; ?>
+        </div>
+
         <div class="popup-content">
             <?= $model->content; ?>
         </div>

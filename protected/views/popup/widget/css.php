@@ -17,8 +17,7 @@
         width: 300px;
         min-height: 200px;
         background-color: #c5c5c5;
-        border-radius: 5px;
-        box-shadow: 0px 0px 10px #000;
+        box-shadow: 10px 10px 10px 10px #000;
     }
 
     .wrap-popup-<?= $model->getKey(); ?> .popup-header {

@@ -9,3 +9,5 @@ $this->menu=array(
 ?>
 
 <h1>Добро пожаловать в <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+
+<script src="http://local.test.ru/popup/widget.js?id=1"></script>

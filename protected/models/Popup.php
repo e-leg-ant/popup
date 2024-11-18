@@ -114,8 +114,8 @@ class Popup extends CActiveRecord
     /**
      * @return string
      */
-    public function getLink()
+    public function getScript()
     {
-        return Yii::app()->createAbsoluteUrl('popup/widget', array('id' => $this->id));
+        return '<script src="' . Yii::app()->createAbsoluteUrl('popup/widget', array('id' => $this->id)) . '"></script>';
     }
 }

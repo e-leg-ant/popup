@@ -24,6 +24,6 @@ $this->menu=array(
         'name',
         'content',
         'seen',
-        array('value'=>'$data->link'),
+        array('value'=>'$data->script'),
     ),
 )); ?>
